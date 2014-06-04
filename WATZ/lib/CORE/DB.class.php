@@ -11,10 +11,10 @@
 
 class DB {
 	// SET THESE VALUES TO MATCH YOUR DATA CONNECTION
-	private $db_host    = DB_HOST;
-	private $db_user    = DB_USER;
-	private $db_pass    = DB_PASS;
-	private $db_dbname  = DB_NAME;
+	private $db_host    = "watzdb.thslmit.com:3306 ";
+	private $db_user    = "watz";
+	private $db_pass    = "fuck@lzheimer5";
+	private $db_dbname  = "watz";
 	private $db_charset = DB_CHARSET;
 	private $db_pcon    = DB_PCON;
 
