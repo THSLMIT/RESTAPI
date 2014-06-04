@@ -30,6 +30,8 @@ $app->get('/',function () {
 
 /* Session */
 $app->get('/session/startSession', function() {
+    $watz = new WATZ();
+    $watz->startSession();
 });
 
 $app->get('/session/endSession', function() {
@@ -43,10 +45,6 @@ $app->get('/session/appendNode', function() {
 });
 
 $app->get('/session/getTailNode', function() {
-});
-
-$app->get('/hello/:name', function ($name) {
-    echo "Hello, $name";
 });
 
 $app->run();
