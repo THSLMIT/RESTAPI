@@ -28,6 +28,7 @@ $app->get('/',function () {
     echo $template;
 });
 
+
 /* Session */
 $app->get('/session/startSession', function() {
     $watz = new WATZ();
@@ -35,16 +36,25 @@ $app->get('/session/startSession', function() {
 });
 
 $app->get('/session/endSession', function() {
+    $watz = new WATZ();
+    $watz->endSession();
 });
 
 $app->get('/session/getSessionID', function() {
+    $watz = new WATZ();
+    $watz->getSessionID();
 });
 
 /* GPS */
 $app->get('/session/appendNode', function() {
+    $watz = new Watz();
+    $watz->appendNode();
+
 });
 
 $app->get('/session/getTailNode', function() {
+    $watz = new Watz();
+    $watz->getTailNode();
 });
 
 $app->run();
