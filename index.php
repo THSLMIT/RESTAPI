@@ -57,4 +57,11 @@ $app->get('/session/getTailNode', function() {
     $watz->getTailNode();
 });
 
+$app->get('/user/createAccount', function(){
+    $watz = new Watz();
+    $watz->createUser();
+}); 
+
+
+
 $app->run();
