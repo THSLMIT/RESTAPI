@@ -1,9 +1,5 @@
-WATZ_RESTAPI
-============
+# WATZ REST API
+### Version: 1.0 (beta)
 
-REST API for the WATZ Smartwatch System. Use primarily by the docking station systems.
-
-Now with helper class!
-=============
-
-Use helper class to easily make httpRequests that set and get data from the database.
+The baseline REST API for the WATZ Alzheimer's Patient monitoring systems.
+This version is only for rapid prototype and is not meant for actual production.
