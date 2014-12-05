@@ -17,10 +17,7 @@ class WATZ {
             echo "APIKEY: " . $_GET['apikey'];
         } else echo "[ERR: INVALID APIKEY]";
 
-        $dbserver = "watzdb.thslmit.com";
-        $dbname = "watz";
-        $dbuser = "watz";
-        $dbpassword = "fuck@lzheimer5";
+        // Database Credentials Removed!!
          
         // Make a database connection
         mysql_connect($dbserver,$dbuser,$dbpassword) or die('Could not connect: ' . mysql_error());
